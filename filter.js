@@ -17,6 +17,7 @@ function filter_list(l) {
     }
     console.log(x);
 }
+
 filter_list([1,2,'aasf','1','123',123])
 
 let values = [1,2,'aasf','1','123',123]
