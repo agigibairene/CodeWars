@@ -16,8 +16,8 @@ function squareDigits(num){
 
     //   Join the squared values into one string
       const result = squaredValues.join("");
-      
+
     //   convert string to an integer and return 
       return Number(result);
       
-    }
+}

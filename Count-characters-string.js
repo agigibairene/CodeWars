@@ -21,3 +21,17 @@ function count(string) {
     }
     return characters;
 }
+
+const string = "aba"
+const str = string.split("");
+const output = str.reduce((acc, curr)=>{
+  if (acc[curr]){
+    acc[curr] ++
+  }
+  else{
+    acc[curr] = 1
+  }
+  return acc
+}
+, {})
+console.log(output)
