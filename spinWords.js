@@ -31,5 +31,20 @@ function spinWords(string) {
 
     console.log(words.join(" "))
 }
+spinWords("Hey fellow warriors");
 
-spinWords("Hey fellow warriors")
+
+// ALTERNATIVE SOLUTION USING MAP FUNCTIONS
+function spinWord(words){
+
+    const newArr = words.split(" ");
+
+    const reversed =   newArr.map(word =>{
+        const reversedword = (word.length > 4) ? word.split("").reverse().join("") : word
+        return reversedword
+    })
+
+    return reversed.join(" ")
+}
+
+console.log(spinWord("Hey fellow warriors"))
