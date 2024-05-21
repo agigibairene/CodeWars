@@ -25,7 +25,7 @@ function solution (roman) {
     let sum = 0;
 
     for (let i = 0; i < roman.length; i++) {
-        // check if there is a next value and check if the CURRENT NUMERICAL value is less than the NEXT NUMERICAL value
+        // check if there is a next value && check if the CURRENT NUMERICAL value is less than the NEXT NUMERICAL value
         if ( i < roman.length - 1 && romanNumerals[roman[i]] < romanNumerals[roman[i+1]]){
 
             // if the next character is greater than the current value 
