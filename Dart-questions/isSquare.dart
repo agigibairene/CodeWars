@@ -4,7 +4,6 @@
   that is the square of an integer; in other words, it is the product of some integer with itself.
 */
 
-import 'dart:ffi';
 import 'dart:math';
 
 void main() {

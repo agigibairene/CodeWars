@@ -6,7 +6,6 @@
   Example
   ['hello', 'world', 'this', 'is', 'great']  =>  'hello world this is great'
 */
-import 'dart:ffi';
 
 void main(){
   print(smash(['hello', 'world', 'this', 'is', 'great']));
